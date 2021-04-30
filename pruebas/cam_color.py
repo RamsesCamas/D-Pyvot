@@ -40,8 +40,8 @@ while True:
     img_col = cv2.bitwise_and(img,img,mask=mask)
 
     cv2.imshow('Detectar color',img)
-    #cv2.imshow('Img HSV', imgHSV)
-    #cv2.imshow('Img Mask', mask)
+    cv2.imshow('Img HSV', imgHSV)
+    cv2.imshow('Img Mask', mask)
     cv2.imshow('Color', img_col)
 
     cv2.waitKey(1)
